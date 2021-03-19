@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Who wants to be a millionaire?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2></h2>
+    </header>
+    <div class="main-container">
+      <div class="upper-container">
+      
+        
+      </div>
+      <div class="imgdiv"><img class="img"  src="logo.jpg" alt="" />
+        <button class="start">START</button>
+        <div class="game-status-container hidden"></div>
+    </div>
+      
+      <div class="next-question-container hidden">
+        <button class="next-question">NEXT QUESTION</button>
+      </div>
+      <div class="score hidden">
+        <p class="scor score12">1200</p>
+        <p class="scor score11">1100</p> 
+        <p class="scor score10">1000</p>
+        <p class="scor score9">900</p>
+        <p class="score8">800</p>
+        <p class="score7">700</p>
+        <p class="score6 ">600</p>
+        <p class="score5">500</p>
+        <p class="score4">400</p>
+        <p class="score3">300</p>
+        <p class="score2">200</p>
+        <p class="score1">100</p>
+        <p class="score0">0</p>
+      </div>
+      <div class="game-container hidden">
+        <div class="help-buttons">
+          <div class="timer">40</div>
+          <button class="second-guess-button">2nd Guess</button>
+          <button class="fifty-fifty">50 : 50</button>
+        </div>
+        <div class="questionsDiv">
+          <div class="question-container" style="color: gold"></div>
+          <div class="answer-container" style="color: gold">
+            <ol type="A" class="answers" style="color: gold"></ol>
+          </div>
+        </div>
+      </div>
+      <div class="points-container hidden">0</div>
+    </div>
+    <audio
+      id="lets-play"
+      src="https://millionaire-school.netlify.com/sounds/lets_play.mp3"
+    ></audio>
+    <audio
+      id="easy"
+      src="https://millionaire-school.netlify.com/sounds/easy.mp3"
+    ></audio>
+    <audio
+      id="wrong-answer"
+      src="https://millionaire-school.netlify.com/sounds/wrong_answer.mp3"
+    ></audio>
+    <audio
+      id="correct-answer"
+      src="https://millionaire-school.netlify.com/sounds/correct_answer.mp3"
+    ></audio>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
